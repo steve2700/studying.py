@@ -1,4 +1,4 @@
-tom(a, b, n):
+def fizzbuzz_custom(a, b, n):
     result = []
     for i in range(1, n+1):
         if i % a == 0 and i % b == 0:
