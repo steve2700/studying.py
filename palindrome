@@ -1,0 +1,7 @@
+def is_palindrome(s):
+    return s[::-1]
+    
+    
+string =input("enter the string: ")
+print("the palindrome",is_palindrome(string))
+
